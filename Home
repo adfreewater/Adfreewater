@@ -604,13 +604,12 @@ footer {
     font-size: 13px;
 }
 
-    /* =========================
+/* =========================
    FINAL MOBILE DESIGN
 ========================= */
 
 @media (max-width: 768px) {
 
-    /* Prevent anything from going outside the phone */
     html,
     body {
         width: 100%;
@@ -618,7 +617,6 @@ footer {
         overflow-x: hidden;
     }
 
-    /* Main container */
     .container,
     .nav-inner {
         width: 92%;
@@ -626,10 +624,6 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
-
-    /* =========================
-       NAVIGATION
-    ========================= */
 
     nav {
         height: 64px;
@@ -644,21 +638,15 @@ footer {
         white-space: nowrap;
     }
 
-    /* Hide desktop navigation links */
     .nav-links {
         display: none !important;
     }
 
-    /* Make the navigation CTA smaller */
     nav .btn {
         padding: 10px 16px;
         font-size: 11px;
         white-space: nowrap;
     }
-
-    /* =========================
-       HERO
-    ========================= */
 
     .hero {
         padding: 55px 0 60px;
@@ -698,18 +686,10 @@ footer {
         overflow: hidden;
     }
 
-    /* =========================
-       BUTTONS
-    ========================= */
-
     .btn {
         max-width: 100%;
         font-size: 13px;
     }
-
-    /* =========================
-       GENERAL SECTIONS
-    ========================= */
 
     section {
         padding: 60px 0;
@@ -727,10 +707,6 @@ footer {
         line-height: 1.6;
     }
 
-    /* =========================
-       TWO COLUMN SECTIONS
-    ========================= */
-
     .split {
         grid-template-columns: 1fr !important;
         gap: 30px;
@@ -741,19 +717,11 @@ footer {
         gap: 30px;
     }
 
-    /* =========================
-       CARDS
-    ========================= */
-
     .steps,
     .cards {
         grid-template-columns: 1fr !important;
         gap: 20px;
     }
-
-    /* =========================
-       CAMPAIGN IMAGES
-    ========================= */
 
     .campaign-boxes {
         grid-template-columns: 1fr !important;
@@ -773,35 +741,27 @@ footer {
         display: block;
     }
 
-    /* =========================
-       SPLIT IMAGES
-    ========================= */
-
     .split-image {
-    min-height: 450px;
-    height: 450px;
-    border-radius: 24px;
-    overflow: hidden;
-    background: #eef8ff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 25px;
-}
+        min-height: 450px;
+        height: 450px;
+        border-radius: 24px;
+        overflow: hidden;
+        background: #eef8ff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 25px;
+    }
 
-.split-image img {
-    width: 100%;
-    height: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    object-fit: contain;
-    object-position: center;
-}
-
-    /* =========================
-       CTA
-    ========================= */
+    .split-image img {
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        object-fit: contain;
+        object-position: center;
+    }
 
     .cta-inner {
         flex-direction: column;
@@ -809,17 +769,12 @@ footer {
         gap: 20px;
     }
 
-    /* =========================
-       FOOTER
-    ========================= */
-
     .footer-inner {
         flex-direction: column;
         align-items: flex-start;
         gap: 20px;
     }
 }
-
 
 /* =========================
    SMALL PHONES
@@ -866,7 +821,8 @@ footer {
         height: 280px;
     }
 }
-    /* =========================
+
+/* =========================
    MOBILE NAVIGATION
 ========================= */
 
@@ -891,16 +847,16 @@ footer {
     }
 
     .nav-links {
-    display: flex !important;
-    width: 100%;
-    order: 3;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    margin-top: 10px;
-    padding-top: 10px;
-    border-top: 1px solid #e6edf5;
-}
+        display: flex !important;
+        width: 100%;
+        order: 3;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin-top: 10px;
+        padding-top: 10px;
+        border-top: 1px solid #e6edf5;
+    }
 
     .nav-links a {
         font-size: 10px;
@@ -932,7 +888,8 @@ footer {
         font-size: 9px;
     }
 }
-    /* =========================
+
+/* =========================
    MOBILE HOW IT WORKS STEPS
 ========================= */
 
@@ -977,9 +934,10 @@ footer {
         line-height: 1.6;
         color: #52708b;
     }
-
 }
-    /* FIX MOBILE HOW IT WORKS SPACING */
+
+/* FIX MOBILE HOW IT WORKS SPACING */
+
 @media (max-width: 768px) {
 
     .step {
@@ -998,6 +956,7 @@ footer {
         margin-top: 0 !important;
     }
 }
+
 </style>
 
 </head>
@@ -1009,24 +968,23 @@ footer {
 <nav>
     <div class="nav-inner">
 
-    <a href="#" class="logo">
-        AdFree<span>Water</span>
-    </a>
+        <a href="#" class="logo">
+            AdFree<span>Water</span>
+        </a>
 
-    <div class="nav-links">
-        <a href="#how">How It Works</a>
-        <a href="#brands">For Brands</a>
-        <a href="#events">For Events</a>
-        <a href="#impact">Our Impact</a>
-        <a href="#contact">Contact</a>
+        <div class="nav-links">
+            <a href="#how">How It Works</a>
+            <a href="#brands">For Brands</a>
+            <a href="#events">For Events</a>
+            <a href="#impact">Our Impact</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <a href="#contact" class="btn btn-primary">
+            Partner With Us
+        </a>
+
     </div>
-
-    <a href="#contact" class="btn btn-primary">
-        Partner With Us
-    </a>
-
-</div>
-
 </nav>
 
 <!-- HERO -->
@@ -1075,17 +1033,17 @@ footer {
 
     <div class="hero-visual">
 
-<img 
-    src="Adfreewater_Logo Without Background.png" 
-    alt="AdFreeWater Logo" 
-    class="hero-logo"
->
+        <img 
+            src="Adfreewater_Logo Without Background.png" 
+            alt="AdFreeWater Logo" 
+            class="hero-logo"
+        >
 
-<div class="hero-card">
-    Clean water • Smart advertising • Positive impact
-</div>
+        <div class="hero-card">
+            Clean water • Smart advertising • Positive impact
+        </div>
 
-</div>
+    </div>
 
 </div>
 
@@ -1181,8 +1139,8 @@ footer {
 <div class="container split">
 
     <div class="split-image">
-    <img src="brand-campaign.png" alt="AdFreeWater brand campaign">
-</div>
+        <img src="brand-campaign.png" alt="AdFreeWater brand campaign">
+    </div>
 
     <div class="split-content">
 
@@ -1383,17 +1341,15 @@ footer {
 
     </div>
 
-   <div class="campaign-boxes">
+    <div class="campaign-boxes">
 
-<div class="campaign-box">
-    <img src="event-1.jpeg" alt="AdFreeWater Event">
-</div>
+        <div class="campaign-box">
+            <img src="event-1.jpeg" alt="AdFreeWater Event">
+        </div>
 
-<div class="campaign-box">
-    <img src="event-2.jpeg" alt="AdFreeWater Event">
-</div>
-
-</div>
+        <div class="campaign-box">
+            <img src="event-2.jpeg" alt="AdFreeWater Event">
+        </div>
 
     </div>
 
@@ -1504,7 +1460,6 @@ footer {
             </div>
 
         </div>
-
 
         <div class="contact-card">
 
