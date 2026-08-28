@@ -736,9 +736,49 @@ footer {
         gap: 30px;
     }
 
+    /* CONTACT SECTION - MOBILE ONLY */
+@media (max-width: 768px) {
+
     .contact-grid {
-    grid-template-columns: 1fr 1fr !important;
-    gap: 10px !important;
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
+        gap: 10px !important;
+        width: 100% !important;
+    }
+
+    .contact-card {
+        min-width: 0 !important;
+        width: 100% !important;
+        padding: 18px !important;
+        overflow: hidden !important;
+    }
+
+    .contact-card h3 {
+        font-size: 15px !important;
+        line-height: 1.3 !important;
+        overflow-wrap: break-word !important;
+    }
+
+    .contact-card p,
+    .contact-card span,
+    .contact-card li {
+        overflow-wrap: anywhere !important;
+    }
+
+    .contact-list {
+        padding-left: 16px !important;
+    }
+
+    .contact-list li {
+        font-size: 10px !important;
+        line-height: 1.5 !important;
+    }
+
+    .contact-card .btn {
+        font-size: 9px !important;
+        padding: 8px 9px !important;
+    }
+
 }
 
     /* =========================
