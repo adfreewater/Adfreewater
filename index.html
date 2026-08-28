@@ -380,6 +380,17 @@ section {
 .event-section .split-image {
     background: transparent;
     order: 2;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.event-section .split-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 25px;
 }
 
 .event-section .split-content {
@@ -1280,7 +1291,12 @@ footer {
 
     </div>
 
-    <div class="split-image"></div>
+    <div class="split-image">
+    <img
+        src="event-distribution.png"
+        alt="AdFreeWater water distribution at events"
+    >
+</div>
 
 </div>
 
